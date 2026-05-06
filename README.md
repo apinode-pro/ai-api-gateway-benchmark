@@ -21,7 +21,7 @@ This benchmark records:
 - P50 latency.
 - P95 latency.
 - HTTP status.
-- Whether `output_text` is present.
+- Whether output text is present.
 
 ## Run Locally
 
@@ -59,4 +59,3 @@ When publishing benchmark results, include:
 - Whether requests were streaming or non-streaming.
 
 Do not publish inflated claims. Developers trust benchmarks that are boring, transparent, and repeatable.
-

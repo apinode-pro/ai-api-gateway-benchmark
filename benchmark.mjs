@@ -66,9 +66,13 @@ async function runSample(index) {
     ok: result.ok,
     status: result.status,
     latency_ms: result.latencyMs,
-    output_present: Boolean(result.body?.output_text),
+    output_present: Boolean(extractOutputText(result.body)),
     error: result.ok ? null : result.body?.error || result.body,
   };
+}
+
+function extractOutputText(body) {
+  return body?.output_text || body?.output?.[0]?.content?.[0]?.text || "";
 }
 
 function summarize(rawSamples) {
@@ -133,4 +137,3 @@ await writeFile("results/last-run.json", `${JSON.stringify({ summary, rawSamples
 await writeFile("results/last-run.md", renderMarkdown(summary, rawSamples));
 
 console.log(JSON.stringify(summary, null, 2));
-
