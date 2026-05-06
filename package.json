@@ -1,0 +1,10 @@
+{
+  "name": "ai-api-gateway-benchmark",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "benchmark": "node benchmark.mjs",
+    "check": "node --check benchmark.mjs"
+  }
+}
+

@@ -1,0 +1,35 @@
+name: AI API gateway benchmark
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 3 * * *"
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Run benchmark
+        env:
+          APINODE_API_KEY: ${{ secrets.APINODE_API_KEY }}
+          APINODE_BASE_URL: https://apinode.pro
+          APINODE_MODEL: gpt-5.5
+          BENCHMARK_SAMPLES: "5"
+        run: npm run benchmark
+
+      - name: Commit benchmark results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add results/last-run.json results/last-run.md
+          git diff --cached --quiet || git commit -m "Update benchmark results"
+          git push
+
