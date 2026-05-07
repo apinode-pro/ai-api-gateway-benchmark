@@ -5,6 +5,7 @@
   "scripts": {
     "benchmark": "node benchmark.mjs",
     "summary": "node render-summary.mjs",
-    "check": "node --check benchmark.mjs && node --check render-summary.mjs"
+    "trend": "node update-history.mjs",
+    "check": "node --check benchmark.mjs && node --check render-summary.mjs && node --check update-history.mjs"
   }
 }

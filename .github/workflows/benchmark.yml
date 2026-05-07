@@ -26,11 +26,12 @@ jobs:
         run: |
           npm run benchmark
           npm run summary
+          npm run trend
 
       - name: Commit benchmark results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add SUMMARY.md results/last-run.json results/last-run.md
+          git add SUMMARY.md TREND.md results/last-run.json results/last-run.md history
           git diff --cached --quiet || git commit -m "Update benchmark results"
           git push

@@ -2,6 +2,7 @@
 
 [![AI API gateway benchmark](https://github.com/apinode-pro/ai-api-gateway-benchmark/actions/workflows/benchmark.yml/badge.svg)](https://github.com/apinode-pro/ai-api-gateway-benchmark/actions/workflows/benchmark.yml)
 [![Latest summary](https://img.shields.io/badge/latest-SUMMARY.md-blue)](SUMMARY.md)
+[![7 day trend](https://img.shields.io/badge/trend-7%20day-blueviolet)](TREND.md)
 [![Results](https://img.shields.io/badge/results-last--run.md-green)](results/last-run.md)
 
 Small reproducible benchmark for OpenAI-compatible AI API gateways.
@@ -23,6 +24,10 @@ Latest generated summary:
 Latest detailed results:
 
 - [results/last-run.md](results/last-run.md)
+
+Latest 7 day trend:
+
+- [TREND.md](TREND.md)
 
 ## Current Snapshot
 
@@ -75,8 +80,10 @@ Results are written to:
 
 ```text
 SUMMARY.md
+TREND.md
 results/last-run.json
 results/last-run.md
+history/YYYY-MM-DD.json
 ```
 
 ## GitHub Actions
@@ -90,6 +97,7 @@ The scheduled workflow is intentionally conservative. Increase sample size only 
 When sharing results externally, link to the committed files instead of copying isolated numbers:
 
 - [SUMMARY.md](SUMMARY.md)
+- [TREND.md](TREND.md)
 - [results/last-run.md](results/last-run.md)
 - [benchmark.mjs](benchmark.mjs)
 

@@ -1,0 +1,57 @@
+{
+  "summary": {
+    "provider": "API NODE",
+    "base_url": "https://apinode.pro",
+    "model": "gpt-5.5",
+    "date": "2026-05-07T09:25:27.826Z",
+    "samples": 5,
+    "successes": 5,
+    "failures": 0,
+    "success_rate": 1,
+    "average_latency_ms": 1565,
+    "p50_latency_ms": 1357,
+    "p95_latency_ms": 2216
+  },
+  "rawSamples": [
+    {
+      "index": 1,
+      "ok": true,
+      "status": 200,
+      "latency_ms": 2216,
+      "output_present": true,
+      "error": null
+    },
+    {
+      "index": 2,
+      "ok": true,
+      "status": 200,
+      "latency_ms": 1357,
+      "output_present": true,
+      "error": null
+    },
+    {
+      "index": 3,
+      "ok": true,
+      "status": 200,
+      "latency_ms": 1754,
+      "output_present": true,
+      "error": null
+    },
+    {
+      "index": 4,
+      "ok": true,
+      "status": 200,
+      "latency_ms": 1268,
+      "output_present": true,
+      "error": null
+    },
+    {
+      "index": 5,
+      "ok": true,
+      "status": 200,
+      "latency_ms": 1228,
+      "output_present": true,
+      "error": null
+    }
+  ]
+}
