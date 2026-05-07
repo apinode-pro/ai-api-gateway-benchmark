@@ -12,6 +12,18 @@ API:      OpenAI Responses API
 
 [Try API NODE](https://apinode.pro)
 
+Latest generated summary:
+
+```text
+SUMMARY.md
+```
+
+Latest detailed results:
+
+```text
+results/last-run.md
+```
+
 ## Metrics
 
 This benchmark records:
@@ -36,6 +48,7 @@ npm run benchmark
 Results are written to:
 
 ```text
+SUMMARY.md
 results/last-run.json
 results/last-run.md
 ```

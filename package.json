@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "benchmark": "node benchmark.mjs",
-    "check": "node --check benchmark.mjs"
+    "summary": "node render-summary.mjs",
+    "check": "node --check benchmark.mjs && node --check render-summary.mjs"
   }
 }
-
