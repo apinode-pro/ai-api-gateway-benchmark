@@ -100,6 +100,8 @@ When sharing results externally, link to the committed files instead of copying 
 - [TREND.md](TREND.md)
 - [results/last-run.md](results/last-run.md)
 - [benchmark.mjs](benchmark.mjs)
+- [How to interpret benchmark results](docs/interpreting-results.md)
+- [How to cite benchmark results](docs/citing-results.md)
 
 That gives readers the sample size, endpoint, model, and benchmark code in one place.
 
