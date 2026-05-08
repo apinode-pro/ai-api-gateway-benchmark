@@ -103,6 +103,7 @@ When sharing results externally, link to the committed files instead of copying 
 - [How to interpret benchmark results](docs/interpreting-results.md)
 - [How to cite benchmark results](docs/citing-results.md)
 - [Latency watch notes](docs/latency-watch.md)
+- [Benchmark incident response runbook](docs/incident-response-runbook.md)
 
 That gives readers the sample size, endpoint, model, and benchmark code in one place.
 
