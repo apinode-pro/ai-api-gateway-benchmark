@@ -103,8 +103,10 @@ When sharing results externally, link to the committed files instead of copying 
 - [How to interpret benchmark results](docs/interpreting-results.md)
 - [How to cite benchmark results](docs/citing-results.md)
 - [Latency watch notes](docs/latency-watch.md)
+- [Latency watch note: 2026-05-09](docs/latency-anomaly-2026-05-09.md)
 - [Benchmark incident response runbook](docs/incident-response-runbook.md)
 - [Embedding benchmark plan](docs/embedding-benchmark-plan.md)
+- [Weekly benchmark review template](docs/weekly-review-template.md)
 
 That gives readers the sample size, endpoint, model, and benchmark code in one place.
 
