@@ -104,9 +104,11 @@ When sharing results externally, link to the committed files instead of copying 
 - [How to cite benchmark results](docs/citing-results.md)
 - [Latency watch notes](docs/latency-watch.md)
 - [Latency watch note: 2026-05-09](docs/latency-anomaly-2026-05-09.md)
+- [P95 watch procedure](docs/p95-watch-procedure.md)
 - [Benchmark incident response runbook](docs/incident-response-runbook.md)
 - [Embedding benchmark plan](docs/embedding-benchmark-plan.md)
 - [Weekly benchmark review template](docs/weekly-review-template.md)
+- [Daily health digest template](docs/daily-health-digest-template.md)
 
 That gives readers the sample size, endpoint, model, and benchmark code in one place.
 
