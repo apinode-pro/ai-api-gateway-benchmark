@@ -111,6 +111,8 @@ When sharing results externally, link to the committed files instead of copying 
 - [Weekly benchmark review template](docs/weekly-review-template.md)
 - [Daily health digest template](docs/daily-health-digest-template.md)
 - [Benchmark annotation policy](docs/benchmark-annotation-policy.md)
+- [No new run status: 2026-05-11](docs/no-new-run-status-2026-05-11.md)
+- [Traffic to content decisions: 2026-05-11](docs/traffic-to-content-decisions-2026-05-11.md)
 
 That gives readers the sample size, endpoint, model, and benchmark code in one place.
 
