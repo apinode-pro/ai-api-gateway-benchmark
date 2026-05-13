@@ -1,6 +1,6 @@
 # 7 Day Benchmark Trend
 
-Updated: 2026-05-12 06:23:28 UTC
+Updated: 2026-05-13 06:34:20 UTC
 
 | Date | Provider | Model | Samples | Success Rate | Avg Latency | P50 | P95 |
 |---|---|---:|---:|---:|---:|---:|---:|
@@ -10,13 +10,14 @@ Updated: 2026-05-12 06:23:28 UTC
 | 2026-05-10 | API NODE | gpt-5.5 | 5 | 100.0% | 2102ms | 2151ms | 3001ms |
 | 2026-05-11 | API NODE | gpt-5.5 | 5 | 100.0% | 2044ms | 2117ms | 2675ms |
 | 2026-05-12 | API NODE | gpt-5.5 | 5 | 100.0% | 2087ms | 2143ms | 2697ms |
+| 2026-05-13 | API NODE | gpt-5.5 | 5 | 100.0% | 4037ms | 1815ms | 13293ms |
 
 ## Rollup
 
-- Days included: 6
-- Fully successful days: 6
+- Days included: 7
+- Fully successful days: 7
 - Average success rate: 100.0%
-- Average latency: 2038ms
+- Average latency: 2324ms
 
 ## Notes
 
