@@ -1,17 +1,17 @@
 # AI API Gateway Benchmark Results
 
-Generated: 2026-05-14 06:32:51 UTC
+Generated: 2026-05-15 06:43:33 UTC
 
 | Provider | Model | Samples | Success Rate | Avg Latency | P50 | P95 |
 |---|---:|---:|---:|---:|---:|---:|
-| API NODE | gpt-5.5 | 5 | 100.0% | 2576ms | 2607ms | 3625ms |
+| API NODE | gpt-5.5 | 5 | 100.0% | 1742ms | 1497ms | 2653ms |
 
 ## Raw Samples
 
 | # | Result | Status | Latency | Output Present |
 |---:|---|---:|---:|---|
-| 1 | ok | 200 | 3625 | yes |
-| 2 | ok | 200 | 3221 | yes |
-| 3 | ok | 200 | 1601 | yes |
-| 4 | ok | 200 | 1826 | yes |
-| 5 | ok | 200 | 2607 | yes |
+| 1 | ok | 200 | 2653 | yes |
+| 2 | ok | 200 | 1956 | yes |
+| 3 | ok | 200 | 1260 | yes |
+| 4 | ok | 200 | 1346 | yes |
+| 5 | ok | 200 | 1497 | yes |
